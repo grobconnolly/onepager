@@ -1,0 +1,113 @@
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bg-img{
+    background: url(./assets/image/1page-hero-image.jpg);
+    background-size: cover;
+  }
+
+  .hello{
+      padding: 40px;
+  }
+
+  .heroText{
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+  }
+
+  .heroSubText{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.heroSubTextLink{
+    color: white;
+    font-size: 15px;
+    font-weight: 100; 
+}
+
+  .textjetLogo {
+      width: 20%;
+      margin-top: 4%;
+      margin-left: 40%;
+  }
+ 
+  .subjectTitle {
+    padding-top: 1.9%;
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+
+  .subjectSubTitle{
+    color:black;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 9px;
+  }
+
+.subjectTitle2{
+    padding-bottom: 2%;
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+  @media only screen and (max-width: 600px) {
+    .bg-img {
+      width: 300px;
+    }
+
+    .subjectTitle {
+        padding-top: 1.9%;
+        color:black;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 1px;
+    }
+
+    .subjectSubTitle{
+        color:black;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 9px;
+      }
+      .subContent{
+          font-size: 15px;
+      }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .textjetLogo {
+        width: 15%;
+        margin-top: 5%;
+        margin-left: 42.4%;
+    }
+    .heroText{
+        color: white;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .heroSubText{
+        color: white;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .heroSubTextLink{
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        padding-top: 4%;
+        padding-bottom: 0%;
+    }
+
+    
+
+  }
