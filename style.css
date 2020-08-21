@@ -65,26 +65,47 @@
     color: green;
 }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 667px) {
     .bg-img {
       width: 300px;
     }
 
-    .subjectTitle {
-        padding-top: 1.9%;
+
+    /* TextJet Hero */
+.heroText{
+    font-size: 40px;
+}
+
+/* Hero Sub Text */ 
+.heroSubText{
+font-size: 13px;
+font-weight: 500;
+}
+
+/* Link */
+.heroSubTextLink{
+    font-weight: 250;
+}
+
+/*Positioning*/
+.subjectTitle {
+        padding-top: 3.9%;
         color:black;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 450;
         margin-bottom: 1px;
     }
 
-    .subjectSubTitle{
+/* loyalty, Video messaging */
+
+.subjectSubTitle{
         color:black;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 300;
-        margin-bottom: 9px;
+        margin-bottom: 19px;
       }
-      .subContent{
+/* TextJet Platform is.. */
+.subContent{
           font-size: 15px;
       }
   }
@@ -97,7 +118,7 @@
     }
     .heroText{
         color: white;
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 400;
     }
     .heroSubText{
