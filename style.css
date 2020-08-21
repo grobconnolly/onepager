@@ -110,6 +110,10 @@ font-weight: 500;
       }
   }
 
+  .subjectTitle2 {
+      font-size: 18px;
+  }
+
   @media only screen and (min-width: 600px) {
     .textjetLogo {
         width: 15%;
