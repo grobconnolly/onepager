@@ -1,3 +1,11 @@
+a:link, a:visited, a:active {
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
+
 .no-padding {
     padding-left: 0;
     padding-right: 0;
