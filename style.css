@@ -61,6 +61,10 @@
     margin-bottom: 1px;
 }
 
+.faqTitle{
+    color: green;
+}
+
   @media only screen and (max-width: 600px) {
     .bg-img {
       width: 300px;
